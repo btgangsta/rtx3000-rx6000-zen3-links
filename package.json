@@ -1,0 +1,22 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "For easiest additions, open the PC Part Picker (AU site), copy the part number (only first one if multiple) into the `model` field, for the brand please use the enum `Brands`, for example to do Zotac, type `Brands.ZOTAC`. When adding a new type of card (e.g. 3060 Ti or RX 6800) use the following enum's for the `chipset`: `NVIDIAChipsets.RTX_3060Ti` and `AMDChipsets.RX6800` respectively. For the `card` field, enter the shortest possible descriptor, for example `Eagle OC`, or `FTW3 Ultra Gaming` or `STRIX GAMING` (this is usually what is listed in the list of all graphics cards on PC Part Picker)\r ___",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllySummers/rtx3000-rx6000-zen3-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllySummers/rtx3000-rx6000-zen3-links/issues"
+  },
+  "homepage": "https://github.com/AllySummers/rtx3000-rx6000-zen3-links#readme",
+  "dependencies": {
+    "typescript": "^4.1.2"
+  }
+}
